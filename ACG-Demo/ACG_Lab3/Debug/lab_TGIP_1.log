@@ -1,4 +1,5 @@
 ﻿          1 file(s) copied.
           1 file(s) copied.
   main.cpp
-  lab_TGIP_1.vcxproj -> C:\Users\zafar\Desktop\OpenGL Texture Processing\Lab3\Debug\ACG_Lab3.exe
+C:\Users\Mario Sakka\Documents\PrivateFilesFaculty\Year III\Semester 1\Advanced Computer Graphics\ACG-Project\ACG-Demo\main.cpp(247,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  lab_TGIP_1.vcxproj -> C:\Users\Mario Sakka\Documents\PrivateFilesFaculty\Year III\Semester 1\Advanced Computer Graphics\ACG-Project\ACG-Demo\Debug\ACG_Lab3.exe

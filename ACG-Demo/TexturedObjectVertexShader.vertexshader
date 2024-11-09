@@ -1,0 +1,19 @@
+#version 330 core
+
+// Input vertex data
+layout(location = 0) in vec3 vertexPos;
+layout(location = 1) in vec2 texCoord;
+
+// Output texture coordinates to fragment shader
+out vec2 fragTexCoord;
+
+// Transformation matrix uniform
+uniform mat4 transform;
+
+void main() {
+    // Apply transformation
+    gl_Position = transform * vec4(vertexPos, 1.0);
+
+    // Pass texture coordinates to fragment shader
+    fragTexCoord = texCoord;
+}

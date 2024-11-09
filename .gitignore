@@ -30,3 +30,97 @@
 *.exe
 *.out
 *.app
+
+*.vs/
+# Ignore build directories and binaries
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# Ignore Visual Studio files
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.cache
+*.log
+*.tlog
+*.pdb
+*.idb
+*.ipch
+*.obj
+*.iobj
+*.ipdb
+*.ilk
+*.log
+*.userosscache
+*.tlog/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Ignore compiled binaries and libraries
+*.dll
+*.exe
+*.lib
+*.so
+*.a
+*.dylib
+
+# Ignore image assets and other media files you don’t want to track
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tga
+
+# Ignore backup files
+*~
+*.tmp
+*.temp
+
+# Ignore OpenGL dependencies (if you keep libraries locally)
+deps/
+libs/
+dependencies/
+external/
+
+# Ignore Windows thumbnail files and system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Ignore Visual Studio Code files
+.vscode/
+*.code-workspace
+
+# Ignore STL image loader cache (e.g., stb_image)
+*.stb.cache
+
+# Ignore Visual Studio auto-generated files for debugging
+*.ncb
+*.suo
+*.sdf
+*.ipch
+
+# Ignore specific OpenGL related files (adjust if you have libraries within your project)
+glew/bin/
+glew/lib/
+glfw/bin/
+glfw/lib/
+
+# Ignore temporary files and logs
+*.lo

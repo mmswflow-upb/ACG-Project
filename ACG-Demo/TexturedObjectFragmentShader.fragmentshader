@@ -1,0 +1,15 @@
+#version 330 core
+
+// Texture sampler
+uniform sampler2D texture1;
+
+// Input from vertex shader
+in vec2 fragTexCoord;
+
+// Output color
+out vec4 fragColor;
+
+void main() {
+    // Sample the texture at the specified coordinates
+    fragColor = texture(texture1, fragTexCoord);
+}

@@ -23,14 +23,21 @@
     <ClCompile Include="shader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="SimpleFragmentShader.fragmentshader" />
-    <None Include="SimpleVertexShader.vertexshader" />
+    <None Include="HealthBarFragmentShader.fragmentshader" />
+    <None Include="HealthBarVertexShader.vertexshader" />
+    <None Include="TexturedObjectFragmentShader.fragmentshader" />
+    <None Include="TexturedObjectVertexShader.vertexshader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="opengl_background.png" />
+    <Image Include="assets\DownScene.png" />
+    <Image Include="assets\LeftScene.png" />
+    <Image Include="assets\MainCharacter.png" />
+    <Image Include="assets\MiddleScene.png" />
+    <Image Include="assets\RightScene.png" />
+    <Image Include="assets\UpScene.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E8D7D48F-7AB1-4260-BCEC-8CC11D9FBC01}</ProjectGuid>
